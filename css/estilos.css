@@ -220,7 +220,7 @@ body {
 
 }
 .nuestras_especialidades{
-    padding: 2rem 7rem;
+    padding: 7rem 7rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -280,7 +280,10 @@ body {
     gap: 3rem;
     justify-content: center;
     align-items: center;
-    padding: 4rem 0rem;
+    padding: 7rem 0rem;
+}
+.ubicacion h2 {
+    font-size: 3.5rem;
 }
 iframe{
     width: 100%;
@@ -645,6 +648,18 @@ textarea{
     .bienvenida{
         padding: 15rem 2rem;
     }
+    .quienes__somos{
+        padding: 12rem 2rem 2rem 2rem;
+    }
+    .nuestras_especialidades{
+        padding: 14rem 2rem 2rem 2rem;
+    }
+    .ubicacion{
+        padding: 14rem 2rem 2rem 2rem;
+    }
+    .mapa{
+        padding: 17rem 2rem 2rem 2rem;
+    }
 }
 @media screen and (max-width:690px) {
     .carrusel{
@@ -676,9 +691,7 @@ textarea{
     }    
 }
 @media screen and (max-width:500px) {
-    .nuestras_especialidades{
-        padding: 2rem 2rem;
-    }
+
     .imagen__presentes{
         width: 100%;
     }
